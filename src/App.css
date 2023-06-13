@@ -2,7 +2,7 @@
 
  * {
   font-family: 'Poppins', sans-serif;
-  color: rgb(9, 22, 44);
+ 
 }
 
 body {
@@ -31,42 +31,49 @@ h1 {
   font-weight: bold;
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
   border-radius: 25px;
+  color: rgb(9, 22, 44);
 }
 
 .list-name {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  color: aliceblue;
 }
 
 .list-type {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
+  color: aliceblue;
 }
 
 .list-place {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
+  color: aliceblue;
 }
 
 .list-date {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
+  color: aliceblue;
 }
 
 .list-team {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
+  color: aliceblue;
 }
 
 .list-result {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
+  color: aliceblue;
 }
 
 .box {
