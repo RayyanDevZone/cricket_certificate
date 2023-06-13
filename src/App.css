@@ -1,38 +1,111 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200&display=swap');
+
+ * {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(9, 22, 44);
+}
+
+body {
+  background-color:rgb(58, 27, 58);
+  overflow-x: auto;
+  width: auto;
+  
+  
+}
+
+.main {
+  border-radius: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  /* background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
+  border: 1px solid #dfcbcb;
+  padding: 10px;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-name {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-type {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-place {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.list-date {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.list-team {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.list-result {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.box {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  /* border-style: solid; */
+ border: none; 
+ margin-bottom: 2rem;
+ box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  h1 {
+    font-size: 16px;
   }
-}
+  .list-name {
+    font-size: 14px;
+  }
+  .list-type {
+    font-size: 12px;
+  }
+  .list-place {
+    font-size: 10px;
+  }
+  .list-date {
+    font-size: 10px;
+  }
+  .list-team {
+    font-size: 10px;
+  }
+  .list-result {
+    font-size: 14px;
+  }
+} 

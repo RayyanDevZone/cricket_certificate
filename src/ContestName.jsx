@@ -24,7 +24,7 @@ function ContestName() {
      <h1 id="heading">CRICKET CERTIFICATE</h1>
      <hr/>
       {data.map((item, id) => (
-        <div key={id} className="boxnp">
+        <div key={id} className="box">
           <p className="list-name">Contest Name: {item.name}</p>
           <p className="list-type">Competition: {item.matchType}</p>
           <p className="list-place">Venue: {item.venue}</p>
